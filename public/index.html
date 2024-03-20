@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,15 +7,36 @@
       name="viewport"
       content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
     />
+    <link rel="icon" href="./favicon.png">
+    <link href="
+https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css
+" rel="stylesheet">
+<!-- <link rel="stylesheet" href="../src/css/main.css"> -->
     <title>
-      Kakao Talk Channel Create Chat Button Demo - Kakao JavaScript SDK
+      Starbucks Coffee Korea
     </title>
+
+    <!-- 오픈그래프와 트위터 카드 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Starbucks" />
+    <meta property="og:title" content="Starbucks Coffee Korea" />
+    <meta property="og:description" content="스타벅스는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
+    <meta property="og:image" content="./images/starbucks_seo.jpg" />
+    <meta property="og:url" content="https://starbucks.co.kr" />
+    
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="Starbucks" />
+    <meta property="twitter:title" content="Starbucks Coffee Korea" />
+    <meta property="twitter:description" content="스타벅스는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
+    <meta property="twitter:image" content="./images/starbucks_seo.jpg" />
+    <meta property="twitter:url" content="https://starbucks.co.kr" />
+
     <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.0/kakao.min.js"
       integrity="sha384-l+xbElFSnPZ2rOaPrU//2FF5B4LB8FiX5q4fXYTlfcG4PGpMkE1vcL7kNXI6Cci0" crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="root">
-      <div id="kakao-talk-channel-chat-button"></div>
+      <div id="kakao-talk-channel-chat-button"></div> 
     <script type="text/javascript">
       // 사용할 앱의 JavaScript 키를 설정해 주세요.
       Kakao.init('c089c8172def97eb00c07217cae17495');
